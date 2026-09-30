@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinnie's Portfolio</title>
+    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+</head>
+<body>
+    <div class="navbar">
+        <div class="name">
+            <h5>Vinnie Angelyn</h5>
+        </div>
+
+        <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+
+        <nav id="navMenu" class="nav-menu">
+            <a href="#about">About</a>
+            <a href="#projects">Projects</a>
+            <a href="#experiences">Experiences</a>
+            <a href="#education">Education</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        
+        <div class="nav-overlay" id="navOverlay"></div>
+    </div>
+
+    <div class="main">
+        <div class="text">
+            <h1 class="typing-container">
+                <span id="typing-text"></span>
+                <span class="cursor">|</span>
+            </h1>
+            <section id="about" class="about">
+                <p>A passionate <strong>Computer Science</strong> undergraduate student specializing in <strong>Software Engineering</strong> with a strong focus on <strong>backend development</strong>. Driven by <strong>analytical problem-solving and complex logic</strong>, I am eager to build scalable and innovative solutions.
+                   Having served as a <strong>Google Student Ambassador, Teaching Assistant, Education Counselor, and Mentor</strong>, I have honed my ability to <strong>communicate complex concepts clearly and lead collaborative teams.</strong></p>
+            </section>
+            <div class="button-group">
+                <a href="../images/VInnie Angelyn_CV.pdf" target="_blank">
+                    <i class="fa-solid fa-file-arrow-down"></i>
+                    <span>View CV</span>
+                </a>
+                <a href="https://github.com/Vinnie-10" target="_blank">
+                    <i class="fa-brands fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://linkedin.com/in/vinnieangelyn" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+        <img src="../images/profile.jpeg" alt="Profile Picture" class="profile-pic" shape="circle">
+    </div>
+    
+    
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="../images/piyoplate.png" alt="PiyoPlate" class="project-img">
+                </div>
+                <div class="project-card-header">
+                    <h3 class="project-title">PiyoPlate</h3>
+                    <a href="https://github.com/Vinnie-10/piyoplate" target="_blank" class="project-link">View Code ↗</a>
+                </div>
+                <p class="project-description">
+                    Designed to make nutrition tracking effortless, <strong>PiyoPlate</strong> replaces manual data entry with 
+                    <strong>instant AI image recognition by Gemini 3.5 Flash</strong>, the app calculates meal calories directly
+                    from photo uploads while offering a space for users to share healthy recipes.</p>
+                <div class="tech-stack">
+                    <span>Flutter</span>
+                    <span>Dart</span>
+                    <span>PostgreSQL</span>
+                    <span>NestJS</span>
+                    <span>TypeScript</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="../images/booklend.png" alt="BookLend" class="project-img">
+                </div>
+                <div class="project-card-header">
+                    <h3 class="project-title">BookLend</h3>
+                    <a href="https://booklend2-1.netlify.app" target="_blank" class="project-link">View BookLend ↗</a>
+                </div>
+                <p class="project-description">
+                    Built to eliminate manual library tracking and inefficient borrowing extensions,
+                    <strong>BookLend</strong> modernizes digital book reservations and catalog search. As <strong>Project Leader</strong>,
+                    I guided the end-to-end design and front-end development to deliver smooth, intuitive user
+                    flows across all screen sizes.
+                </p>
+                <div class="tech-stack">
+                    <span>JavaScript</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-img-container">
+                    <img src="../images/parsistant.png" alt="Parsistant" class="project-img">
+                </div>
+                <div class="project-card-header">
+                    <h3 class="project-title">Parsistant</h3>
+                    <a href="https://www.figma.com/proto/BjooDPzbZSOuqC2bp9zq3p/ParSistant?node-id=0-1&p=f&t=BMYqorG57ylbHs3o-0&scaling=scale-down&content-scaling=fixed&starting-point-node-id=93%3A109&show-proto-sidebar=1" target="_blank" class="project-link">View Figma ↗</a>
+                </div>
+                <p class="project-description">
+                    <strong>Parsistant</strong> is an empathetic, parent-first <strong>UI/UX application</strong> designed to simplify <strong>child growth tracking</strong>, vaccination schedules, and parenting community support.
+                    We designed user journeys and interactive prototypes tailored for quick accessibility during daily parenting routines.
+                </p>
+                <div class="tech-stack">
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section id="experiences" class="experiences">
+        <div class="section-header">
+            <h2>My Previous Experiences</h2>
+        </div>
+
+        <div class="experience-columns">
+            <!-- Left Column -- Professional -->
+            <div class="exp-column">
+                <h3 class="column-title">Professional</h3>
+                <div class="column-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                            <div class="column-card">
+                                <div class="card-top">
+                                    <h4 class="role-title">SASC Scholarship Mentor</h4>
+                                    <span class="role-date">Sept 2026 - Present</span>
+                                </div>
+                            <h5 class="company-name">BINUS University</h5>
+                            <p class="role-description">
+                                Conducted academic mentoring for <strong>5 mentees across 9 university courses</strong>, breaking down complex topics to drive academic improvement.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Communication</span>
+                                <span>Mentorship</span>
+                                <span>Academic Guidance</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="column-card">
+                            <div class="card-top">
+                                <h4 class="role-title">Google Student Ambassador</h4>
+                                <span class="role-date">Apr 2026 - Aug 2026</span>
+                            </div>
+                            <h5 class="company-name">Google Indonesia</h5>
+                            <p class="role-description">
+                                Produced <strong>weekly educational content and demonstrations spotlighting Google AI tools</strong> including Gemini, NotebookLM, and AI Mode.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Content Creation</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="column-card">
+                            <div class="card-top">
+                                <h4 class="role-title">Education Counselor</h4>
+                                <span class="role-date">July 2025 - Aug 2026</span>
+                            </div>
+                            <h5 class="company-name">BINUS University</h5>
+                            <p class="role-description">
+                                <strong>Executed large scale candidate outreach</strong> and guided applicants through university admissions pathways.
+                            </p>
+                            <div class="experience-tags">
+                                <span>Consultation & Communication</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="column-card">
+                            <div class="card-top">
+                            <h4 class="role-title">Music Teaching Assistant</h4>
+                            <span class="role-date">Dec 2021 - Jun 2024</span>
+                        </div>
+                        <h5 class="company-name">Symphony Musical Art Centre</h5>
+                        <p class="role-description">
+                            Coached piano students <strong>up to Grade 8 ABRSM</strong> and prepared them for performance and competitions.
+                        </p>
+                        <div class="experience-tags">
+                            <span>Mentorship</span>
+                            <span>Instruction</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+            <div class="exp-column">
+                <h3 class="column-title">Organizational Leadership</h3>
+                <div class="column-timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="column-card">
+                            <div class="card-top">
+                                <h4 class="organization-name">AIESEC in BINUS</h4>
+                                <span class="role-date">Feb 2025 - Jan 2026</span>
+                            </div>
+                            <div class="subrole-list">
+                                <div class="subrole">
+                                    <span class="sub-title">Staff of International Relations & Quality Assurance Global Volunteer 25.26</span>
+                                    <span class="sub-date">Feb 2025 - Jan 2026</span>
+                                    <p>Managed <strong>customer experience journeys</strong> and coordinated <strong>international partner communications.</strong></p>
+                                </div>
+                                <div class="subrole">
+                                    <span class="sub-title">Organizing Committee Finance - Team Closing 25.26</span>
+                                    <span class="sub-date">Dec 2025 - Jan 2026</span>
+                                    <p>Allocated and monitored operational budgets to maintain <strong>zero deficit.</strong></p>
+                                </div>
+                                <div class="subrole">
+                                    <span class="sub-title">Organizing Committee Vice President Partnership - Impact Circle 25.26</span>
+                                    <span class="sub-date">Aug 2025 - Nov 2025</span>
+                                    <p>Led <strong>partner outreach initiatives, securing community promotions</strong> for event initiatives.</p>
+                                </div>
+                                <div class="subrole">
+                                    <span class="sub-title">AIESEC Future Leaders (AFL) Interviewer</span>
+                                    <span class="sub-date">Mar 2025 - Apr 2025</span>
+                                    <p>Evaluated prospective applicants through <strong>structured competency-based interviews.</strong></p>
+                                </div>
+                                <div class="experience-tags">
+                                    <span>International Relations</span>
+                                    <span>Cross-Cultural Communication</span>
+                                    <span>Quality Assurance</span>
+                                    <span>Strategic Partnership</span>
+                                    <span>Decision Making</span>
+                                    <span>Google Workspace</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="column-card">
+                            <div class="card-top">
+                                <h4 class="organization-name">Teach For Indonesia Student Community</h4>
+                                <span class="role-date">Feb 2025 - Jan 2026</span>
+                            </div>
+                            <div class="subrole-list">
+                                <div class="subrole">
+                                    <span class="sub-title">Activist of CP: Education</span>
+                                    <span class="sub-date">Feb 2025 - Jan 2026</span>
+                                    <p><strong>Tutored</strong> elementary school students year-round and <strong>supervised volunteers</strong> to ensure quality teaching methods and materials.</p>
+                                </div>
+                                <div class="subrole">
+                                    <span class="sub-title">Event Coordinator - TFISC Fundraiser 2025</span>
+                                    <span class="sub-date">Jul 2025 - Dec 2025</span>
+                                    <p>Specified the event's concept, built the rundown, <strong>delegated tasks across all committee members.</strong></p>
+                                </div>
+                                <div class="subrole">
+                                    <span class="sub-title">Staff Humas - TFISC Voluntopia 2025</span>
+                                    <span class="sub-date">May 2025 - Sept 2025</span>
+                                    <p>Facilitated <strong>group game sessions, on-site registration workflows</strong>, and resolved operational bottlenecks under high candidate volume.</p>
+                                </div>
+                                <div class="experience-tags">
+                                    <span>Event Planning</span>
+                                    <span>Customer Experience</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <div class="education-card">
+            <div class="card-top">
+                <div>
+                    <h3 class="degree">Bachelor Degree in Computer Science (S.Kom)</h3>
+                    <h4 class="institution">BINUS University, Indonesia</h4>
+                </div>
+                <span class="year">2024 - Present</span>
+            </div>
+            <div class="academic-honors">
+                <span class="honors-title">Academic Honors:</span>
+                <span class="honors-tag">Dean's List</span>
+                <span class="honors-tag">S-Class Member</span>
+            </div>
+            <div class="coursework">
+                <h5>Relevant Coursework:</h5>
+                <div class="coursework-tags">
+                    <span class="course-tag">Data Structures</span>
+                    <span class="course-tag">Algorithm Design & Analysis</span>
+                    <span class="course-tag">Software Engineering</span>
+                    <span class="course-tag">Mobile Technology Solution</span>
+                    <span class="course-tag">Software Architecture</span>
+                    <span class="course-tag">Code Reengineering</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <div class="contact-card">
+            <div class="contact-header">
+                <span class="status-badge"><span class="pulse-dot"></span> Open to Roles & Opportunities</span>
+                <h3>Let's Connect</h3>
+                <p>If you'd like to get in touch, feel free to reach out via email at</p>
+            </div>
+            <div class="contact-actions">
+                <a href="mailto:vinnie.angelyn001@gmail.com" class="contact-btn primary">
+                    <i class="fa-solid fa-envelope"></i>
+                    <span>vinnie.angelyn001@gmail.com</span>
+                </a>
+            </div>
+
+            <div class="contact-socials">
+                <a href="https://linkedin.com/in/vinnieangelyn" target="_blank">
+                    <i class="fa-brands fa-linkedin-in"></i> LinkedIn
+                </a>
+                <a href="https://github.com/Vinnie-10" target="_blank">
+                    <i class="fa-brands fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
